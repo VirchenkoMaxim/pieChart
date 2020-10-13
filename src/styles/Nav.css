@@ -1,0 +1,17 @@
+nav {
+  height: 60px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(56, 35, 172);
+}
+
+nav a {
+  text-decoration: none;
+  font-size: 24px;
+  line-height: 24px;
+  color: #fff;
+}
+nav .is-active {
+  color: rgb(0, 223, 19);
+}

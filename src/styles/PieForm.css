@@ -1,0 +1,49 @@
+.pie-form {
+  text-align: center;
+}
+
+form {
+  margin: auto;
+}
+form div {
+  display: inline-block;
+  margin: 10px 20px 10px 0;
+}
+.form-input input {
+  justify-self: center;
+  padding: 5px 10px;
+  background-color: #fafafa;
+  border: none;
+  font-size: 18px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  transition: 0.3s box-shadow;
+}
+.form-input input:focus {
+  outline: rgb(0, 223, 19, 0.3) 1px auto;
+}
+
+.remove-btn {
+  display: inline-block;
+  height: 100%;
+  padding: 5px 10px;
+  align-self: center;
+  background-color: rgba(145, 35, 35, 0.616);
+  color: #fff;
+  font-weight: 600;
+  border-radius: 5px;
+}
+.remove-btn:hover {
+  color: rgb(0, 223, 19);
+}
+.add-position {
+  margin-top: 10px;
+  padding: 10px 40px;
+  background-color: #3f51b5;
+  color: #fff;
+  font-weight: 600;
+  border-radius: 5px;
+}
+
+.add-position:hover {
+  color: rgb(0, 223, 19);
+}

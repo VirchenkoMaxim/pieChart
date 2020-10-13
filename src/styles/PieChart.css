@@ -1,0 +1,28 @@
+svg {
+  width: 300px;
+  height: 360px;
+}
+
+#pie {
+  fill: none;
+}
+
+.pie-chart {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.prompt-items {
+  list-style-type: none;
+}
+
+.prompt-items li {
+  display: flex;
+  align-items: center;
+  height: 26px;
+  list-style: none;
+}
+.prompt-items li div {
+  margin-right: 5px;
+}
